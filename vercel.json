@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next@canary"
+      "use": "@vercel/next@canary",
+      "config": {
+        "zeroConfig": true
+      }
     }
   ],
   "build": {
