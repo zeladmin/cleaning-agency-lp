@@ -15,16 +15,16 @@ export default function InstantConsultation() {
 
           {/* Main Headline - Solution & Guarantee */}
           <h1 className="space-y-2 md:space-y-3 mb-6">
-            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.15]">
+            <span className="block text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.2]">
               We&apos;ll Guarantee You The
             </span>
-            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-600 leading-[1.15]">
+            <span className="block text-[1.75rem] sm:text-4xl md:text-5xl lg:text-6xl font-bold text-blue-600 leading-[1.2]">
               Successful Placement
             </span>
-            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.15] whitespace-nowrap">
+            <span className="block text-[1.6rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.2] px-2">
               Of A Cleaning Employee Within 7 Days
             </span>
-            <span className="block text-xl sm:text-2xl md:text-3xl font-semibold text-blue-600 mt-4">
+            <span className="block text-lg sm:text-2xl md:text-3xl font-semibold text-blue-600 mt-4">
               On A Completely Pay Per Placement Basis
             </span>
           </h1>
