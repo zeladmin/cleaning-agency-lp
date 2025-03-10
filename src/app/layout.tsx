@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Elite Cleaning Staff Agency | Premium Recruitment Services',
-  description: 'Specialized recruitment agency for cleaning businesses. We build exceptional cleaning teams through expert recruitment, thorough vetting, and perfect cultural matches.',
-  keywords: 'cleaning recruitment agency, cleaning staff agency, cleaning team building, cleaning business staffing, professional cleaners recruitment, cleaning staff hiring',
+  title: 'Zcruitment | Guaranteed Cleaning Staff Recruitment',
+  description: 'Guaranteed placement of cleaning staff within 7 days. Zcruitment specializes in recruiting exceptional cleaning teams through expert vetting and perfect cultural matches.',
+  keywords: 'cleaning recruitment agency, cleaning staff recruitment, cleaning team building, cleaning business staffing, professional cleaners recruitment, cleaning staff hiring, Zcruitment',
 };
 
 export default function RootLayout({
