@@ -17,7 +17,7 @@ export default function BookYourCall() {
 
         <div 
           className="calendly-inline-widget w-full" 
-          data-url="https://calendly.com/admin-zel-tutoring/cleaning-recruitment-consultation-call"
+          data-url="https://calendly.com/admin-zcruitment/30min"
           style={{ 
             minWidth: '320px', 
             height: 'calc(100vh - 200px)',
