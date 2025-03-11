@@ -143,17 +143,18 @@ const WhyChooseUs = () => {
           className="text-center mt-16"
         >
           <p className="text-xl text-gray-600 mb-8">Join 500+ satisfied clients who trust our recruitment expertise</p>
-          <motion.button
-            onClick={() => scrollToSection('lead-form')}
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105 hover:from-blue-500 hover:to-blue-600"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            Schedule Your Free Consultation
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </motion.button>
+          <Link href="/instant-consultation">
+            <motion.button
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105 hover:from-blue-500 hover:to-blue-600"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Schedule Your Free Consultation
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </section>
