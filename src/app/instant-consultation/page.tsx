@@ -38,16 +38,15 @@ export default function InstantConsultation() {
         </div>
 
         {/* VSL Video Embed with Enhanced Design */}
-        <div className="relative max-w-[1000px] mx-auto mb-12 md:mb-16">
-          <div className="absolute inset-0 bg-blue-600 transform rotate-1 rounded-2xl opacity-10"></div>
-          <div className="absolute inset-0 bg-blue-600 transform -rotate-1 rounded-2xl opacity-10"></div>
-          <div className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+        <div className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white mb-8">
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/EConZYgDPNM?si=irVZuplR9oUk_QZY&autoplay=1&mute=1"
+              src="https://www.loom.com/embed/abe321ecd7fd4fba9617c298f2cd8035?sid=f8594cda-3b6b-427e-b4cc-7cf5a2e16004"
               title="Recruitment Process Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
             ></iframe>
           </div>
         </div>
